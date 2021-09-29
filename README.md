@@ -25,7 +25,6 @@ Hacktoberfest has a simple and plain moto.
 So, yes! You can win a T-Shirt and few awesome stickers to attach on your laptop. On plus side, you will get into beautiful world of open source and get the international exposure.  
 **Wait there's more!**
 
-> Complete pull requests in repositories listed below and get the chance to win a free unlimited ssd web host.
 
 ---
 
