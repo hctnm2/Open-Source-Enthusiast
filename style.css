@@ -1,0 +1,99 @@
+/* CSS Class */
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #a8dadc;
+    margin:20px;
+}
+
+h1{
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+h2{
+    padding-bottom: 3.5rem;
+    font-weight: bold;
+    font-family: 'Zilla Slab', serif; 
+}
+
+p{
+    font-family: 'Zilla Slab', serif;   
+}
+
+a{
+    color: black;
+    font-family: 'Zilla Slab', serif;
+    font-size: 1.7rem;
+    content: justify;
+}
+
+.btn{
+    border-radius: 5%;
+    background-color: #a8dadc;
+    color: black;
+    font-family: 'Zilla Slab', serif;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: black;
+}
+
+.jumbotron-fluid{
+    padding: 10px;
+}
+
+.center h2{
+    text-align: center;
+}
+
+.center li{
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+/* -------- */
+.header-bg{
+    background-color: #1f1f1d;
+}
+
+.jumbotron-fluid{
+    /* background-color: #f76c5e; */
+    
+    text-align: center;
+}
+
+.jumbotron-fluid h1{
+    color: white;
+    font-size: 8rem;
+}
+
+.jumbotron-fluid p{
+    color: white;   
+}
+
+#footer{
+    background-color: blue;
+    text-align: center;
+    color: red;
+    bottom: 0px;
+}
+
+.list-grid ol{
+    column-count: 3;
+}
+
+@media (max-width: 768px) {
+    .jumbotron-fluid h1 {
+        font-size: 4rem;
+    }
+}
+
