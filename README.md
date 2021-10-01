@@ -1,8 +1,6 @@
 ![](https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg)
 
 
-![](https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg)
-
 
 # Beginner-Hacktoberfest
 Need Your first pr for hacktoberfest 2k21 ? come on in 
