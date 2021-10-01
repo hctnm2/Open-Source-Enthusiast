@@ -38,10 +38,12 @@ a{
     color: black;
     font-family: 'Zilla Slab', serif;
     font-weight: bold;
+    border-color: aqua;
 }
 
 .btn:hover{
     background-color: black;
+    border-color: rgb(255, 145, 0);
 }
 
 .jumbotron-fluid{
@@ -96,4 +98,3 @@ li {
         font-size: 4rem;
     }
 }
-
