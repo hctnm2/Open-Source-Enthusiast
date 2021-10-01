@@ -74,3 +74,9 @@ I have created a simple page to display all contributors list [here](https://hct
 <a href="https://github.com/hctnm2/Beginner-Hacktoberfest/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=hctnm2/Beginner-Hacktoberfest" />
 </a>
+
+# Recommended Repos 
+- https://github.com/hctnm1/HacktoberFest-Python/
+- https://github.com/hctnm1/HacktoberFest-2021/
+- https://github.com/hctnm2/hacktoberfest-2021
+- https://github.com/roshankcpkr/Hacktoberfest-web
