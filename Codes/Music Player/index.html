@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Music Player</title>
+</head>
+
+<body>
+    <img src="cover/Sparkle.jpg" alt="" id="bg_img">
+    <div class="main_container">
+        <div class="info">
+            <h2 id="title">Sparkle</h2>
+            <h3 id="artist">Radwimps</h3>
+        </div>
+        <div class="img_container">
+            <img src="cover/Sparkle.jpg" alt="music-cover" id="cover" />
+            <div class="img_container" id="circle1"></div>
+            <div class="img_container" id="circle2"></div>
+        </div>
+        
+        <div class="progress_bar">
+            <div class="progress"></div>
+            <span id="played_time">
+            0:00
+            </span>
+            <span id="total_time">
+            5:00
+            </span>
+        </div>
+
+        <div class="btns">
+            <button id="prev" class="action_btn">
+                <i class="fas fa-backward"></i>
+            </button>
+            <button id="play" class="action_btn_big">
+                <i class="fas fa-play"></i>
+            </button>
+            <button id="next" class="action_btn">
+                <i class="fas fa-forward"></i>
+            </button>
+        </div>
+    </div>
+
+    <audio src="music/Sparkle.mp3" id="gana"></audio>
+    
+    <script src="code.js"></script>
+</body>
+
+</html>
