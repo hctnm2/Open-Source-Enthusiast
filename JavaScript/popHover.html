@@ -1,0 +1,27 @@
+<html>
+	<head>
+	    <title>Event!!!</title>
+        <script type="text/javascript">
+            function trigger(){
+                document.getElementById("hover").addEventListener("mouseover", popup);
+                function popup()
+                {
+                      alert("Welcome to my WebPage!!!");
+                }
+            }
+	    </script>
+	    <style>
+          p{
+            font-size:50px;
+            position: fixed;
+            left: 300px;
+            top: 250px;
+
+          }
+        </style>
+
+	</head>
+	<body  onload="trigger();">
+         <p id="hover"><span style="font-size: 10px;">when hover on welcome message , a pop should appear</span> Welcome!!!</p>
+    </body>
+</html>
