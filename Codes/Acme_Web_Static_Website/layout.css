@@ -1,0 +1,249 @@
+body{
+    background-color: black;
+    color: white;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+}
+
+header nav{
+    padding:1%;
+    display: grid;
+    grid-template-columns: 70% auto;
+}
+.navbar{
+    
+    
+    display:grid;
+    grid-template-columns: repeat(4, auto);
+    
+}
+.home{
+background-image: url("resources/home-img-4.png");
+background-size: 55%;
+background-repeat: no-repeat;
+background-position: right;
+
+}
+
+.heading{
+    margin-top:10%;
+    font-size:3rem;
+}
+.blue-btn{
+    display:block;
+    background-color: blue;
+    margin-top:2%;
+    font-size:0.9rem;
+    padding:10px;
+    width:fit-content;
+    border:black 1px solid;
+}
+.blue-btn:hover{
+    background-color:black;
+    color:white;
+    border:blue 1px solid;
+}
+.container{
+    padding:4rem;
+    margin-top:5rem;
+    margin-bottom: 5rem;
+}
+
+
+.about{
+    display: grid;
+    grid-template-columns: 45% 1% auto;
+    gap:1%;
+    background-image: url("resources/about-img-1.png");
+    background-size: 30%;
+    
+    background-repeat: no-repeat;
+    background-position: 7% 5%;
+    
+}
+.about-header{
+    text-align: right;
+    font-size:2rem;
+    line-height: 0.9;
+    padding-right:3%;
+}
+.ribbon{
+    width:2px;
+    height:100%;
+    background-color: azure;
+}
+.about-text{
+    font-size:0.8rem;
+    text-align: justify;
+    padding:10px;
+}
+.card-layout{
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    margin-top:3%;
+}
+.card{
+    border-radius:5%;
+    
+    padding-bottom:50px;
+    background-color: black;
+    border: blue 1px solid;
+}
+.card:hover{
+    background-color: blue;
+}
+.card-text{
+    padding:15px;
+    padding-top:20px;
+}
+.quote{
+    background-image: url("resources/quote-img-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 35% 30% auto;
+    font-size:0.7rem;
+    line-height: 1.6;
+
+    
+
+}
+footer{
+    background-image: url("resources/footer-img-1.png");
+    background-size: 25%;
+    
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.footer-header{
+    font-size:1.2rem;
+    
+}
+.footer-header::after{
+    content:"";
+    display: block;
+    width:70%;
+    height:7px;
+    background-color: blue;
+    margin-bottom:1rem;
+}
+.copyright{
+    margin-top:10%;
+    font-size:0.8rem;
+    text-align: center;
+}
+footer {
+    
+    padding-bottom: 0 !important;
+}
+
+
+
+
+@media  (max-width: 900px)
+{
+    header nav{
+        padding:1%;
+        display: grid;
+        grid-template-columns: 50% auto;
+    }
+    .about{
+        background-size: 50vw;
+        background-position-x:-35% ;
+    }
+}
+@media  (max-width: 700px)
+{
+    
+
+    .card-layout{
+        width:90%;
+        margin:auto;
+        display:grid;
+        grid-template-columns: repeat(1, 90%);
+        gap:3%;
+        justify-content: space-between;
+        margin-top:3%;
+    }
+}
+@media (max-width: 600px)
+{
+    .home{
+        
+        background-size: 75%;
+        background-position-x:200% ;
+    
+        }
+        .about{
+            background-size: 90vw;
+            background-position-x:-15em ;
+        }
+        .quote{
+            background-position-x: 50%;
+        }
+}
+@media  (max-width: 550px)
+{
+    header nav{
+        padding:1%;
+        display: grid;
+        grid-template-columns: 30% auto;
+    }
+    .heading{
+        font-size:2rem;
+    }
+    .ribbon{
+        width:50%;
+        height:2px;
+        background-color: azure;
+    }
+    .about{
+        display: grid;
+        grid-template-columns: repeat(1, 90%);
+        gap:1%;
+        background-image: url("resources/about-img-1.png");
+        background-size: 25%;
+        
+        background-repeat: no-repeat;
+        background-position: 7% 5%;
+        
+    }
+    .container{
+        padding:1rem;
+        font-size: smaller;
+    margin-top:5rem;
+    margin-bottom: 5rem;
+    }
+}
+
+@media  (max-width: 400px)
+{
+    
+    
+    .footer{
+        display: grid;
+        grid-template-columns: 45% 45%;
+        gap:50px;
+        font-size:0.7rem;
+        line-height: 1.6;
+    
+        
+    
+    }
+    
+    .footer-header::after{
+        content:"";
+        display: block;
+        width:70%;
+        height:5px;
+        background-color: blue;
+        margin-bottom:1rem;
+    }
+}
