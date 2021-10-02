@@ -5,6 +5,10 @@
     padding:0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #a8dadc;
     margin:20px;
@@ -85,6 +89,35 @@ li {
 
 .jumbotron-fluid p{
     color: white;   
+}
+
+.scroll-to-top {
+    position: fixed;
+    position: sticky;
+    pointer-events: all;
+    top: calc(100vh - 8rem);
+    display: inline-block;
+    text-decoration: none;
+    line-height: 5rem;
+    text-align: center;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: transform 80ms ease-in;
+}
+
+.arrow-up {
+    border: solid #a8dadc;
+    border-width: 0 0.5rem 0.5rem 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.list-grid ol {
+    column-count: 3;
 }
 
 #footer{
