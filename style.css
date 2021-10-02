@@ -39,6 +39,7 @@ a{
     font-family: 'Zilla Slab', serif;
     font-weight: bold;
     border-color: #00FFFF;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .btn:hover{
