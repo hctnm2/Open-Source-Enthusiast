@@ -1,4 +1,4 @@
-funfunction reverseArray(arrayParameter) {
+function reverseArray(arrayParameter) {
 	let reversedArray = [];
 	
 	for (let index = 0; index < arrayParameter.length; index++) {
