@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>CURRENCY Converter</title>
+
+    <style>
+         body{
+            background-image: url('https://images.unsplash.com/photo-1580519542036-c47de6196ba5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80');
+            background-repeat: no-repeat;
+            /* background-position: center; */
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color: rgba(0, 0, 0, 0.7); margin-top: 200px; height: 253px; color: whitesmoke;">
+
+        <div style="height: 180px;">
+            <div style="background-color: red;text-align: center;  ">
+
+                <h1 style="padding: 10px;">CURRENCY CONVERTER</h1>
+            </div>
+            <label for="From" style="margin-left: 10px;">FROM : </label>
+            <select name="country" id="From">
+                <option value="India">India</option>
+                <option value="Australia">Australia</option>
+                <option value="England">England</option>
+                <option value="Africa">Africa</option>
+                <option value="Dubai">Dubai</option>
+                <input type="text" style="margin-right: 46px;" id="fr" placeholder="Enter Value...">
+            </select>
+            
+        </div>
+    <hr>
+    <br>
+    <form action="" style="margin-left: 74px;">
+
+        India : <input type="text" name="" id="out1" placeholder="Indian Rupees"> &nbsp;&nbsp;&nbsp;
+        Australia : <input type="text" name="" id="out2" placeholder="Australian Dollars">&nbsp;&nbsp;&nbsp;
+        England : <input type="text" name="" id="out3" placeholder="US Dollars">&nbsp;&nbsp;&nbsp;
+        Africa : <input type="text" name="" id="out4" placeholder="African Rand">&nbsp;&nbsp;&nbsp;
+        Dubai : <input type="text" name="" id="out5" placeholder="Dirham">&nbsp;&nbsp;&nbsp;
+        <input type="submit" value="Convert" onclick="output(event)">
+        <input type="reset" value="Reset">
+    </form>
+</div>
+    
+    <script>
+
+        function output(event) {
+
+            let a = document.getElementById('fr').value;
+            let out1 = document.getElementById('out1');
+            let out2 = document.getElementById('out2');
+            let out3 = document.getElementById('out3');
+            let out4 = document.getElementById('out4');
+            let out5 = document.getElementById('out5');
+            let out;
+            // from
+          
+            let sel = document.getElementById('From');
+            if (sel.value == "India") {
+                out = a;
+                out1.value = out;
+                out2.value= out/53.88;
+                out3.value = out / 73.13;
+                out4.value = out*0.23;
+                out5.value = out * 0.050;
+
+            }
+            else if(sel.value=="Australia"){
+                out = a;
+                out1.value = out*53.88;
+                out2.value= out;
+                out3.value = out*0.74;
+                out4.value = out*12.21;
+                out5.value = out *2.70;
+            }            
+            else if(sel.value=="England"){
+                out = a;
+                out1.value = out*73.13;
+                out2.value= out/0.74;
+                out3.value = out;
+                out4.value = out*16.59;
+                out5.value = out *3.67;
+            }
+            else if(sel.value=="Africa"){
+                out = a;
+                out1.value = out*1.13;
+                out2.value= out/0.74;
+                out3.value = out/2.2;
+                out4.value = out;
+                out5.value = out *2.67;
+            }
+            else if(sel.value=="Dubai"){
+                out = a;
+                out1.value = out*15.13;
+                out2.value= out*0.74;
+                out3.value = out*0.52;
+                out4.value = out*12;
+                out5.value = out ;
+            }
+
+                
+            event.preventDefault();       
+        }
+    </script>
+</body>
+
+</html>
