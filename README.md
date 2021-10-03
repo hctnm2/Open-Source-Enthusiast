@@ -42,7 +42,7 @@ It's very easy. You don't need to be an expert in coding and programming. Here a
 
 ## 🔥 What will happen after my contribution?
 
-I have created a simple page to display all contributors list [here](https://hctnm2.github.io/Beginner-Hacktoberfest/), your name should appear shortly after the pull request is merged.
+I have created a simple page to display all contributors list [here](https://hctnm2.github.io/Open-Source-Enthusiast), your name should appear shortly after the pull request is merged.
 
 ---
 ## Code Of Conduct
