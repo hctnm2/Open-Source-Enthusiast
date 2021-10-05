@@ -1,0 +1,120 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sign Up</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+			crossorigin="anonymous"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			body {
+				font-family: "Work Sans", sans-serif;
+			}
+
+			#card {
+				min-height: 100vh;
+			}
+			img {
+				border-radius: 1rem;
+			}
+		</style>
+	</head>
+	<body>
+		<div
+			class="
+				row
+				justify-content-end
+				flex-row-reverse
+				align-items-center
+				m-0
+				p-0
+			"
+			style="min-height: 100vh"
+		>
+			<div class="col-md">
+				<div class="d-flex justify-content-center">
+					<img
+						src="./img/pexels-bhupendra-singh-756024.jpg"
+						alt="img"
+						class="img-fluid shadow"
+						style="max-height: 60vh"
+					/>
+				</div>
+			</div>
+			<div class="col-md-6 m-0 p-0">
+				<div
+					class="
+						d-flex
+						justify-content-center
+						flex-column
+						bg-white
+						border border-info
+						shadow
+						px-5
+						py-3
+					"
+					id="card"
+				>
+					<div class="my-3">
+						<h1 style="letter-spacing: 2px">Sign Up</h1>
+						<hr class="border border-info w-50 m-0" />
+					</div>
+
+					<div class="">
+						<p class="mb-0 text-capitalize">
+							Don't have an account?
+							<a href="#" class="text-info"> sign in </a>
+						</p>
+					</div>
+
+					<div class="mt-3">
+						<form action="#" method="post">
+							<div class="form-group my-4">
+								<label for="" class="fw-bold"
+									>Username <span class="text-danger">*</span></label
+								>
+								<input
+									type="text"
+									name=""
+									id=""
+									placeholder="Username"
+									class="form-control"
+									required
+									autofocus
+								/>
+							</div>
+							<div class="form-group my-4">
+								<label for="" class="fw-bold"
+									>Password <span class="text-danger">*</span></label
+								>
+								<input
+									type="password"
+									name=""
+									id=""
+									placeholder="Password"
+									class="form-control"
+								/>
+							</div>
+							<input
+								type="submit"
+								value="Sign Up"
+								class="btn btn-outline-info w-100 mt-3"
+							/>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
