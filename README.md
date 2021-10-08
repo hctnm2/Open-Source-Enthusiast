@@ -1,9 +1,7 @@
 ![](https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg)
 
 
-
-# Beginner-Hacktoberfest
-Need Your first pr for hacktoberfest 2k21 ? come on in 
+# Open-Source-Entusiasts
 
 ---
 
@@ -44,7 +42,7 @@ It's very easy. You don't need to be an expert in coding and programming. Here a
 
 ## 🔥 What will happen after my contribution?
 
-I have created a simple page to display all contributors list [here](https://hctnm2.github.io/Beginner-Hacktoberfest/), your name should appear shortly after the pull request is merged.
+I have created a simple page to display all contributors list [here](https://hctnm2.github.io/Open-Source-Enthusiast), your name should appear shortly after the pull request is merged.
 
 ---
 ## Code Of Conduct
@@ -80,6 +78,6 @@ I have created a simple page to display all contributors list [here](https://hct
 # Recommended Repos 
 - https://github.com/hctnm1/HacktoberFest-Python/
 - https://github.com/hctnm1/HacktoberFest-2021/
-- https://github.com/hctnm2/hacktoberfest-2021
+- https://github.com/hctnm2/Programming-Nerds
 - https://github.com/roshankcpkr/Hacktoberfest-web
 - https://github.com/V35HR4J/Your-First-Contribution
