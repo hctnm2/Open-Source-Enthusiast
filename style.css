@@ -22,7 +22,37 @@ h2{
     font-weight: bold;
     font-family: 'Zilla Slab', serif; 
 }
-
+/* Text Animation*/
+svg text {
+    font-family: Lora;
+    letter-spacing: 10px;
+    stroke: #f7e2eee1;
+    font-size: 70px;
+    font-weight: 500;
+    stroke-width: 3;
+   
+    animation: textAnimate 4s infinite alternate;
+    
+  }
+  
+  @keyframes textAnimate {
+    0% {
+      stroke-dasharray: 0 50%;
+      stroke-dashoffset:  20%;
+      fill:hsl(189, 68%, 75%)
+  
+    }
+    
+    100% {
+      stroke-dasharray: 50% 0;
+      stroke-dashoffstet: -20%;
+      fill: hsla(189, 68%, 75%,0%)
+    }
+    
+  }
+  
+  
+  
 p{
     font-family: 'Zilla Slab', serif;   
 }
