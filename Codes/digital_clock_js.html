@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Digital Clock</title>
+</head>
+<body>
+
+	<style>
+	h1,h2,p,a{
+		font-family: sans-serif;
+		font-weight: bold;
+	}
+
+	.digital-clock {
+		overflow: hidden;
+		width: 1000px;
+		margin: 20px auto;
+		border: 5px solid #fff;
+	}
+	.box{
+		float: left;
+		width: 200px;
+		height: 110px;
+		background-color: #f7f7f7;
+	}
+	.digital-clock p {
+		color: #333;
+		font-size: 36px;
+		text-align: center;
+		margin-top: 30px;
+	}
+
+
+</style>
+
+<center>
+	<h1>Simple Digital Clock With Javascript</h1>
+</center>
+
+<div class="digital-clock">
+	<div class="box">
+		<p id="hour"></p>
+	</div>
+    <div class="box">
+		<p id="">:</p>
+	</div>
+	<div class="box">
+		<p id="minute"></p>
+	</div>
+    <div class="box">
+		<p id="">:</p>
+	</div>
+	<div class="box">
+		<p id="second"></p>
+	</div>
+</div>
+
+<script>
+	window.setTimeout("time()", 1000);
+
+	function time() {
+		var time = new Date();
+		setTimeout("time()", 1000);
+		document.getElementById("hour").innerHTML = time.getHours();
+		document.getElementById("minute").innerHTML = time.getMinutes();
+		document.getElementById("second").innerHTML = time.getSeconds();
+	}
+</script>
+</body>
+</html>
