@@ -28,7 +28,7 @@ p{
 }
 
 a{
-    color: black;
+    color: #000000;
     font-family: 'Zilla Slab', serif;
     font-size: 1.7rem;
     content: justify;
@@ -47,7 +47,7 @@ a{
 }
 
 .btn:hover{
-    background-color: black;
+    background-color: #000000;
     border-color: #ff9100;
 }
 
