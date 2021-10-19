@@ -1,9 +1,5 @@
 /* CSS Class */
-* {
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
-}
+
 
 body{
     background-color: #a8dadc;
@@ -31,12 +27,14 @@ a{
     color: black;
     font-family: 'Zilla Slab', serif;
     font-size: 1.7rem;
-    content: justify;
 }
 
+
+
 .btn{
+    width: 250px;
     border-radius: 5%;
-    background-color: #a8dadc;
+    background-color: #7ce8ee;
     color: black;
     font-family: 'Zilla Slab', serif;
     font-weight: bold;
@@ -53,18 +51,6 @@ a{
 
 .jumbotron-fluid{
     padding: 10px;
-}
-
-.center h2{
-    text-align: center;
-}
-
-.center li{
-    text-align: center;
-}
-
-li {
-    list-style: none;
 }
 
 /* -------- */
@@ -86,6 +72,18 @@ li {
 .jumbotron-fluid p{
     color: white;   
 }
+.repo-list {
+    justify-content: center;
+}
+
+.repo-list li{
+    list-style:none;
+    display: contents;
+}
+.repo-list li a{
+    padding: 12px;
+    margin: 5px 10px;
+}
 
 #footer{
     background-color: blue;
@@ -94,9 +92,9 @@ li {
     bottom: 0px;
 }
 
-.list-grid ol{
+/* .list-grid ol{
     column-count: 3;
-}
+} */
 
 @media (max-width: 768px) {
     .jumbotron-fluid h1 {
