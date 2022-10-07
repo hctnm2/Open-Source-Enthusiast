@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t,a,b,i;
+	cin>>t;
+	for(i=1;i<=t;i++){
+	    cin>>a>>b;
+	    if(a>b){
+	        cout<<"A"<<endl;
+	    }
+	    else{
+	        cout<<"B"<<endl;
+	    }
+	}
+	return 0;
+}
