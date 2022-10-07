@@ -1,0 +1,31 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int main()
+
+{
+    
+    int t;
+    
+    cin >> t >> ws;
+    
+    string line, word;
+    
+    for(int i=0; i<t; i++){
+        
+        getline(cin, line);
+        
+        stringstream ss(line);
+        
+        int cnt=0;
+        
+        while(ss >> word){
+            cnt++;
+        }
+        
+       cout << cnt << "\n";
+   
+    }
+
+}
